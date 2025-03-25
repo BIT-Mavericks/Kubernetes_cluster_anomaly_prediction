@@ -75,6 +75,7 @@ The project demonstrates improved predictive accuracy and robustness through its
   - [4TU Dataset](https://data.4tu.nl/articles/dataset/AssureMOSS_Kubernetes_Run-time_Monitoring_Dataset/20463687)
 - Additional references from research articles and the k8sgpt website.
 
-
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
