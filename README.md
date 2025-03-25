@@ -1,9 +1,6 @@
 # Phase 1: AI/ML Model for Predicting Kubernetes Issues
 
 ---
-Below is a comprehensive README.md file for our project:
-
-
 
 ## Overview
 This project presents a novel meta-learning ensemble approach for predictive autoscaling in Kubernetes clusters. The framework integrates multiple machine learning models—namely a Graph Neural Network (GNN), a Long Short-Term Memory (LSTM) network, and a simple Artificial Neural Network (ANN) branch—combined via a meta-learner to predict and remediate anomalies such as pod failures, resource exhaustion, and network issues. By leveraging techniques like SMOTE for class imbalance, regularization (dropout, L2 regularization), and meta-learning for dynamic ensemble weighting, the system aims to overcome overfitting while maintaining high accuracy in real-time environments.
