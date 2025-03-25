@@ -3,6 +3,7 @@
 
 ## Overview
 This project presents a novel meta-learning ensemble approach for predictive autoscaling in Kubernetes clusters. The framework integrates multiple machine learning models—namely a Graph Neural Network (GNN), a Long Short-Term Memory (LSTM) network, and a simple Artificial Neural Network (ANN) branch—combined via a meta-learner to predict and remediate anomalies such as pod failures, resource exhaustion, and network issues. By leveraging techniques like SMOTE for class imbalance, regularization (dropout, L2 regularization), and meta-learning for dynamic ensemble weighting, the system aims to overcome overfitting while maintaining high accuracy in real-time environments.
+For the prediction of resource(CPU, memory) exhaustion in kubernetes cluster we have used XGBoost and LGBMClassifier. For this issue we have provided a unique solution of using Convolutional Neural Network(CNN), Logistic Regression and we have done analysis and experimentation with many other models.
 
 ## Features
 - **Hierarchical Hybrid Model:** Simultaneously combines the models for each type of anomaly based on the interface.
